@@ -1,0 +1,207 @@
+/*Estilo para tablet*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .nav-menu {
+    margin-top: 66px;
+  }
+
+  .introducao {
+    margin-top: 103px;
+  }
+
+  .contato-header {
+    text-align: right;
+  }
+
+  .contato-header li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .contato-header li span {
+    color: #ffffff;
+    margin-left: 5px;
+    font-size: 14px;
+  }
+
+  /*footer*/
+  .inicio-footer {
+    padding-right: 0px;
+  }
+
+  .inicio-footer p {
+    float: right;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .email-footer p {
+    padding-right: 5px;
+    margin-bottom: 0px;
+    font-size: 13px;
+  }
+
+  .contatos-footer ul li p {
+    padding-left: 2px;
+    font-size: 14px;
+  }
+  .redes-footer {
+    margin: 0 auto;
+    padding: 0px;
+  }
+  .redes-footer ul li {
+    padding-right: 0px;
+  }
+
+  .redes-footer ul li img {
+    width: 38px;
+  }
+
+  /*Serviço BG interna*/
+
+  .introducao-interna {
+    margin-top: 104px;
+  }
+
+  /*serviço lista*/
+
+  .nossosservicos-lista ul li {
+    height: 100%;
+  }
+}
+
+/*Estilo para Smartphone*/
+@media only screen and (max-width: 787px) {
+  .whatsapp-api img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .header img {
+    margin: 0 auto;
+  }
+
+  .contato-header {
+    visibility: hidden;
+    opacity: 1;
+    height: 0;
+    position: fixed;
+  }
+
+  .nav-menu {
+    position: relative;
+    margin-top: 0px;
+    padding: 15px 0;
+  }
+
+  .nav-menu ul li {
+    margin: 5px;
+    padding: 0px 0;
+  }
+
+  .nav-menu ul li a {
+    border: 4px solid #464646;
+    width: 136px;
+    display: block;
+    float: left;
+    padding: 10px 0;
+  }
+
+  .nav-menu ul li a:hover {
+    border: 4px solid #fff;
+    color: #fff;
+  }
+
+  .nav-menu .active a {
+    border: 4px solid #fff;
+    color: #fff;
+  }
+
+  .introducao {
+    margin-top: 0px;
+    width: 100%;
+    background: url("../img/bg-inicio-mobile.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .introducao h1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 15px;
+  }
+
+  .introducao p {
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 25px;
+    margin-bottom: 30px;
+  }
+
+  /*footer*/
+
+  .inicio-footer {
+    margin-top: 40px;
+    width: 100%;
+    background: #464646;
+    color: #e9e7e7;
+    padding: 25px 0 10px 0;
+  }
+
+  .inicio-footer p {
+    float: right;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .inicio-footer img {
+    margin: 0 auto;
+    display: inline-block;
+  }
+  .contatos-footer ul li {
+    display: inline-block;
+    padding-bottom: 0px;
+  }
+
+  .contatos-footer ul li p {
+    padding-left: 10px;
+  }
+
+  .contatos-footer a {
+    color: #e9e7e7;
+  }
+
+  .email-footer p {
+    text-align: center;
+    padding-right: 115px;
+    margin-bottom: 0px;
+  }
+
+  /*Serviço BG interna*/
+
+  .introducao-interna {
+    margin-top: 0px;
+  }
+
+  /*Serviço lista*/
+
+  .nossosservicos-lista ul li {
+    background: #464646;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px;
+    height: 200px;
+  }
+
+  /* PG contato*/
+
+  .contato_dados {
+    padding-left: 0px;
+  }
+
+  .form input {
+    width: 100%;
+  }
+}

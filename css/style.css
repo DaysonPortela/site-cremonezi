@@ -1,0 +1,383 @@
+/*Estilos Gerais*/
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #464646;
+  background-color: #f7cc00;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  animation: bounce 1s;
+}
+
+.subtitulo {
+  line-height: 40px;
+  text-align: center;
+  font-size: 24px;
+  color: #464646;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1emm;
+  border-bottom: double;
+  border-width: 1px;
+  border-color: #f7cc00;
+}
+
+/*Introdução Interna*/
+.introducao-interna {
+  width: 100%;
+  margin-top: 112px;
+  height: 160px;
+}
+
+.introducao-interna h1 {
+  text-align: center;
+  font-size: 36px;
+  line-height: 60px;
+  font-weight: bolder;
+  color: #464646;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+/*cards*/
+
+/*Portfolio*/
+.inicio-card {
+  padding: 60px 0;
+}
+
+.card-lista {
+  padding-top: 40px;
+}
+
+.card-lista li {
+  height: 400px;
+  background: #464646;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px;
+}
+
+.card-lista img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-lista h3 {
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #e9e7e7;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  padding: 10px 20px 5px 20px;
+}
+
+.card-lista p {
+  font-size: 14px;
+  color: #e9e7e7;
+  padding: 10px 10px 25px 20px;
+}
+
+.card-lista .btn {
+  color: #464646;
+  padding: 7px 7px;
+  margin-left: 20px;
+}
+
+/*Header*/
+
+.header {
+  background-color: #464646;
+  padding: 7px 0;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}
+
+.contato-header {
+  text-align: right;
+}
+
+.contato-header li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.contato-header li img {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.contato-header li span {
+  color: #ffffff;
+  margin-left: 5px;
+  font-size: 1em;
+}
+
+.nav-menu {
+  width: 100%;
+  background-color: #f7cc00;
+  position: fixed;
+  z-index: 9;
+  margin-top: 74px;
+  top: 0;
+}
+
+.nav-menu ul {
+  text-align: center;
+}
+
+.nav-menu ul li {
+  display: inline-block;
+  margin: 0px 12px;
+  padding: 10px;
+}
+
+.nav-menu ul li a {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #464646;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 10px 0 0px 0;
+}
+
+.nav-menu ul li a:hover {
+  border-bottom: 2px solid #464646;
+  color: #464646;
+}
+
+.nav-menu .active a {
+  border-bottom: 2px solid #464646;
+  color: #464646;
+}
+
+/*introducao*/
+
+.introducao {
+  width: 100%;
+  background: url("../img/bg-inicio.jpg") no-repeat center;
+  height: 370px;
+  background-size: cover;
+  text-align: center;
+  margin-top: 112px;
+}
+
+.introducao h1 {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: bolder;
+  color: #e9e7e7;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.introducao p {
+  font-size: 24px;
+  padding-top: 30px;
+  color: #e9e7e7;
+  margin-bottom: 40px;
+}
+
+/*Portfolio*/
+.inicio-projeto {
+  padding: 60px 0;
+}
+
+.projetos-lista {
+  padding-top: 40px;
+}
+
+.projetos-lista li {
+  height: 370px;
+  background: #464646;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px;
+}
+
+.projetos-lista img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.projetos-lista h3 {
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #e9e7e7;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  padding: 10px 20px;
+}
+
+.projetos-lista p {
+  font-size: 14px;
+  color: #e9e7e7;
+  padding: 10px 20px;
+}
+
+.call {
+  text-align: center;
+}
+.call p {
+  color: #464646;
+  font-size: 14px;
+  line-height: 50px;
+}
+
+/* Máterias */
+.inicio-materia {
+  margin-top: 30px;
+}
+
+.materia-lista {
+  margin-top: 30px;
+}
+
+.materia-lista li {
+  margin-top: 20px;
+}
+
+.materia-lista img {
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #464646;
+}
+
+.materia-lista h3 {
+  font-size: 18px;
+  color: #464646;
+  padding: 10px;
+  line-height: 22px;
+}
+
+/*Reputação*/
+
+.inicio-retutacao {
+  margin-top: 60px;
+}
+
+.inicio-retutacao ul li {
+  margin-top: 30px;
+}
+
+/*Clientes*/
+
+.inicio-clientes {
+  margin-top: 60px;
+}
+
+.inicio-clientes img {
+  margin: 0 auto;
+}
+
+.inicio-clientes h2 {
+  margin-bottom: 30px;
+}
+
+/*footer*/
+.inicio-footer {
+  margin-top: 40px;
+  width: 100%;
+  background: #464646;
+  color: #e9e7e7;
+  padding: 25px 0 10px 0;
+}
+
+.inicio-footer p {
+  float: right;
+  font-size: 16px;
+  line-height: 20px;
+}
+.inicio-footer img {
+  margin: 0 auto;
+  display: inline-block;
+}
+.contatos-footer ul li {
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.contatos-footer ul li p {
+  padding-left: 10px;
+}
+
+.contatos-footer a {
+  color: #e9e7e7;
+}
+
+.email-footer p {
+  text-align: left;
+  padding-right: 10px;
+  margin-bottom: 0px;
+}
+.redes-footer {
+  margin: 0 auto;
+}
+
+.redes-footer ul li {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.copy {
+  width: 100%;
+  background: #f7cc00;
+  padding: 15px 0;
+  color: #464646;
+  font-size: 14px;
+}
+
+/*Javascript*/
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
+}
+
+.nao-aparece {
+  visibility: hidden;
+  height: 0px;
+  position: absolute;
+}
+
+#form-sucesso {
+  color: #31aa39;
+}
+#form-sucesso h2 {
+  font-size: 24px;
+}
+
+#form-erro {
+  color: #f64540;
+  font-weight: bold;
+}
+
+#form-erro h2 {
+  font-size: 24px;
+}

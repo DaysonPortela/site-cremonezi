@@ -1,0 +1,59 @@
+.interna-portfolio {
+  background: url("../img/bg-portfolio.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.interna-portfolio h1 {
+  color: #e9e7e7;
+}
+
+.card-lista li {
+  margin-bottom: 30px;
+}
+
+/*Fotos Portfolio*/
+
+.fotos-portfolio {
+  margin-top: 50px;
+}
+
+.fotos-portfolio h2 {
+  background: #464646;
+  text-align: center;
+  font-size: 24px;
+  color: #e9e7e7;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.fotos-portfolio h3 {
+  text-align: center;
+  background: #f7cc00;
+  color: #464646;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.fotos-portfolio h4 {
+  font-weight: 600;
+  color: #464646;
+  text-align: left;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+
+.fotos-portfolio p {
+  color: #464646;
+  line-height: 25px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.fotos-portfolio ul li img {
+  margin-top: 20px;
+  border-radius: 3px;
+}
