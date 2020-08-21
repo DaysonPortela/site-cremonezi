@@ -36,28 +36,3 @@
 .nossos-servicos .subtitulo {
   text-align: left;
 }
-
-.nossosservicos-lista ul li {
-  background: #464646;
-  margin-top: -80px;
-  margin-bottom: 120px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 4px;
-  height: 200px;
-}
-
-.nossosservicos-lista h4 {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 25px;
-  color: #f7cc00;
-  padding: 15px 20px 10px 20px;
-}
-
-.nossosservicos-lista p {
-  font-size: 14px;
-  line-height: 20px;
-  color: #ebebeb;
-  padding: 0px 20px 20px 20px;
-}

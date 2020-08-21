@@ -49,7 +49,7 @@ img {
   font-size: 36px;
   line-height: 60px;
   font-weight: bolder;
-  color: #464646;
+  color: #fff;
   text-transform: uppercase;
   margin-top: 50px;
 }
@@ -157,6 +157,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   padding: 10px 0 0px 0;
+  text-decoration: none;
 }
 
 .nav-menu ul li a:hover {
@@ -167,6 +168,7 @@ img {
 .nav-menu .active a {
   border-bottom: 2px solid #464646;
   color: #464646;
+  text-decoration: none;
 }
 
 /*introducao*/
